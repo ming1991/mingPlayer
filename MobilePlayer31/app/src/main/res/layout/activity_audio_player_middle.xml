@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/audio_player_osc"
+        android:src="@drawable/osc_anim"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/audio_player_artist"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@id/audio_player_osc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <com.itheima.mobileplayer31.view.LyricView
+        android:id="@+id/audio_playe_lyric"
+        android:layout_below="@id/audio_player_osc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</RelativeLayout>

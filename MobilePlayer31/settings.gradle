@@ -1,0 +1,1 @@
+include ':app', ':netvideosender', ':vitamio', ':mylibrary', ':ijkplayer', ':ijkplayer_exo', ':ServiceDemo', ':NotificationDemo'
